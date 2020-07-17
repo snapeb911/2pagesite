@@ -7,16 +7,137 @@
 </head>
 <body>
     <nav>
-        <a href="index.html">Return to Tutorial page </a>
+        <a href="home.html">Return to Tutorial page </a>
     </nav>
     <form action="https://formspree.io/mgenprga" method ="POST">
         <label>
             Enter your full name:
             <input name="Full Name">
         </label>
-        <input type="send emial">
+        <p>
+                Answer the questions:
+        </p>
+            1.1 What Is Business Intelligence?
+            <input type="text" id="1.1" name="1.1 What Is Business Intelligence?" required>
+            <p>
+            1.2 What Is Supervisor?
+            <input type="text" id="1.2" name="1.2 What Is Supervisor?" required>
+            </p>
+            1.3 What Is A Hierarchy?
+            <input type="text" id="1.3" name="1.3 What Is A Hierarchy?" required>
+        <label>
+        <p>Select correct answer:</p>
+            2.1 What Are The Various Business Objects Products?:
+        </label>
+        <div>
+            <input type = "radio" id="UserModule" name="2.1 What Are The Various Business Objects Products?" value="User Module">
+            <label for="UserModule"> User Module </label>
+        </div>
+        <div>
+            <input type = "radio" id="Designer" name="2.1 What Are The Various Business Objects Products?" value="Designer">
+            <label for="Designer"> Designer </label>
+        </div>
+        <div>
+            <input type = "radio" id="Supervisor" name="2.1 What Are The Various Business Objects Products?" value="Supervisor">
+            <label for="Supervisor"> Supervisor </label>
+        </div>
+        <div>
+            <input type = "radio" id="Auditor" name="2.1 What Are The Various Business Objects Products?" value='Auditor' >
+            <label for="Auditor"> Auditor </label>
+        </div>
+        <div>
+            <input type = "radio" id="SetAnalyzer" name="2.1 What Are The Various Business Objects Products?" value="Set Analyzer">
+            <label for="SetAnalyzer"> Set Analyzer </label>
+        </div>
+        <label>2.2 What Are The Advantages Of Business Objects Over Other Dss?</label>
+            <div>
+            <input type="radio" id='UserFriendly'name ='2.2 What Are The Advantages Of Business Objects Over Other Dss?' value="User Friendly">
+            <label for="UserFriendly"> User Friendly </label>
+            </div>
+            <div>
+            <input type="radio" id='FamiliarBusinessTerms'name ='2.2 What Are The Advantages Of Business Objects Over Other Dss?' value='Familiar Business Terms'>
+            <label for="FamiliarBusinessTerms"> Familiar Business Terms </label>
+            </div>
+            <div>
+            <input type="radio" id='GraphicalInterface'name ='2.2 What Are The Advantages Of Business Objects Over Other Dss?' value="Graphical Interface">
+            <label for="GraphicalInterface"> Graphical Interface </label>
+            </div>
+            <div>
+            <input type="radio" id='DragandDrop'name ='2.2 What Are The Advantages Of Business Objects Over Other Dss?' value="Drag and Drop">
+            <label for="DragandDrop"> Drag and Drop </label>
+            </div>
+            <div>
+            <input type="radio" id='Powerfulreportsinlesstime'name ='2.2 What Are The Advantages Of Business Objects Over Other Dss?' value="Powerful reports in less time">
+            <label for="Powerfulreportsinlesstime">Powerful reports in less time</label>
+            </div>
+        <p> Select at least one answer:</p>
+        
+        <label>3.1 What Are The Different Schemas Supported By Bo Designer? </label>
+            <div>
+                <input type="checkbox" id='StarSchema' name='3.1 What Are The Different Schemas Supported By Bo Designer?'value='Star Schema'>
+                <label for="StarSchema">Star Schema</label>
+            </div>
+             <div>
+                <input type="checkbox" id='SnowflakeSchema' name='3.1 What Are The Different Schemas Supported By Bo Designer?'value='Snowflake Schema'>
+                <label for="SnowflakeSchema">Snowflake Schema</label>
+            </div>
+            <div>
+                <input type="checkbox" id='MultistarSchema' name='3.1 What Are The Different Schemas Supported By Bo Designer?' value='Multistar Schema'>
+                <label for="MultistarSchema">Multistar Schema</label>
+            </div>
+            <div>
+                <input type="checkbox" id='Datawarehousewithaggregates' name='3.1 What Are The Different Schemas Supported By Bo Designer?' value='Data warehouse with aggregates'>
+                <label for="Datawarehousewithaggregates">Data warehouse with aggregates</label>
+            </div>
+        
+        <label>3.2 What Are All The Data Providers Supported By Bo?</label>
+            <div>
+            <input type="checkbox" id='Storedprocedure' name="3.2 What Are All The Data Providers Supported By Bo?" value='Stored procedure'>
+            <label for="Storedprocedure">Stored procedure</label>
+            </div>
+            <div>
+            <input type="checkbox" id='VBAProcedures' name="3.2 What Are All The Data Providers Supported By Bo?" value='VBA Procedures'>
+            <label for="VBAProcedures">VBA Procedures</label>
+            </div>
+            <div>
+            <input type="checkbox" id='OLAPservers' name="3.2 What Are All The Data Providers Supported By Bo?" value = 'OLAP servers'>
+            <label for="OLAPservers">OLAP servers</label>
+            </div>
+            <div>
+            <input type="checkbox" id='SAP' name="3.2 What Are All The Data Providers Supported By Bo?" vlaue='SAP'>
+            <label for="SAP">SAP</label>
+            </div>
+        <p>Thanks for your responds</p>
+        <fieldset>
+        <legend>Please spend a few seconds to help us to understand who passes such exams</legend>
+        <div>
+        <label for="pet-select">Please select age range you belong:</label>
+        <select id="age-select">
+            <option value="">--Ranges:--</option>
+            <option value="18-25">18-25</option>
+            <option value="26-32">26-32</option>
+            <option value="33-40">33-40</option>
+            <option value="41-45">41-45</option>
+            <option value="46-55">46-55</option>
+            <option value="56-60">56-60</option>
+        </select>
+        </div>
+        <p>Choose your gender:</p>  
+         <div>
+          <input type="radio" id="male" name="Gender" value="Male">
+          <label for="male">Male</label>
+        </div>
+        <div>
+          <input type="radio" id="female" name="Gender" value="Female">
+          <label for="female">Female</label>
+        </div>
+        </fieldset>   
+        <br>
+        <input type="submit">
+        </br>
 
     
     
     </form>
 </body>
+</html>
